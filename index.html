@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		/>
+	</head>
+	<body>
+		<header>
+			<div>
+				<img src="./Logo.png" alt="our logo" />
+			</div>
+			<div>
+				<p>for individuals</p>
+				<p class="mobile">
+					Inspiring wholesome harmony for the mind, body<br />
+					and spirit, for everyone, everywhere.
+				</p>
+				<p class="web">
+					Start benefiting from the wellness experience. for <br />companies
+					looking on increasing productivity, and improving <br />organization
+					wellness.
+				</p>
+			</div>
+		</header>
+		<main>
+			<form action="GET">
+				<p>
+					<label for="FirstName">First Name</label><br />
+					<input
+						type="text"
+						name="FirstName"
+						id="FirstName"
+						placeholder="Tolu"
+					/>
+				</p>
+				<p>
+					<label for="LastName">Last Name</label> <br />
+					<input type="text" name="LastName" id="LastName" />
+				</p>
+				<p>
+					<label for="Gender">Gender</label> <br />
+
+					<select name="Gender" id="Gender">
+						<option value="">Select here</option>
+						<option value="male">male</option>
+						<option value="female">female</option>
+					</select>
+				</p>
+				<p>
+					<label for="DOB">Date Of Birth</label> <br />
+					<input type="date" name="DOB" id="DOB" placeholder="select here" />
+				</p>
+				<p>
+					<label for="weight">Weight (KG)</label> <br />
+					<input
+						type="text"
+						name="weight"
+						id="weight"
+						placeholder="Enter Weight"
+					/>
+				</p>
+				<p>
+					<label for="height">Height (CM)</label> <br />
+					<input
+						type="text"
+						name="height"
+						id="height"
+						placeholder="Enter height here"
+					/>
+				</p>
+				<p class="activity">
+					<label for="activity">Activity Level</label> <br />
+
+					<select name="activity" id="activity">
+						<option value="">Select here</option>
+					</select>
+				</p>
+				<p class="password">
+					<label for="Password">Password</label> <br />
+					<input type="password" name="Password" id="Password" />
+					<i class="fa-solid fa-eye" id="eye"></i>
+				</p>
+				<p class="submit">
+					<button type="submit">Register</button>
+				</p>
+			</form>
+			<div>
+				<p>
+					By clicking Register, you agree to our
+					<a href="#">Terms of Use</a> and our <a href="#">Privacy Policy.</a>
+				</p>
+			</div>
+		</main>
+	</body>
+</html>
